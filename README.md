@@ -98,11 +98,12 @@ Adjust function/class names to match the actual code exported by `qr-code.py`.
 
 ### Live Website
 
-<h2 align="center">
+<p align="center">
   <a href="https://url-to-qr-code.netlify.app/" target="_blank">
     url-to-qr-code.netlify.app
   </a>
-</h2>
+</p>
+
 
 ## Examples
 
