@@ -1,4 +1,4 @@
-# pyqr — QR Code Utilities
+# URL to QR Code Generator
 
 Professional, lightweight tools for generating QR codes via a Python CLI, a reusable Python module, and a simple HTML demo.
 
@@ -7,7 +7,6 @@ Professional, lightweight tools for generating QR codes via a Python CLI, a reus
 This repository provides:
 - `qr-code-cli.py`: A command-line tool to generate QR codes from text/URLs and save them as image files.
 - `qr-code.py`: A small Python module that exposes functions/classes to create QR codes programmatically.
-- `qr-code.html`: A minimal client-side demo for generating QR codes in the browser.
 
 Use the CLI for quick QR creation, the module when integrating into your applications, and the HTML page for a fast visual test in the browser.
 
@@ -39,7 +38,7 @@ Note: The exact package used depends on the implementation inside `qr-code.py` a
 Clone or download this repository, then install dependencies using `pip` in your environment.
 
 ```bash
-git clone https://github.com/your-org/pyqr.git
+git clone https://github.com/0PKunal/url-to-qr.git 
 cd pyqr
 pip install -r requirements.txt  # if present
 ```
@@ -95,15 +94,14 @@ qr.save("link.png")
 
 Adjust function/class names to match the actual code exported by `qr-code.py`.
 
-### Browser Demo: `qr-code.html`
+---
 
-Open the HTML file directly in your browser and enter text to generate a QR code. No build step required.
+### Live Website
 
-```text
-Open qr-code.html → type text → QR updates live.
-```
+<p style="text-align: center; font-size: 24px;">
+  <a href="https://url-to-qr-code.netlify.app/">url-to-qr-code.netlify.app</a>
+</p>
 
-If the page relies on an external library (e.g., `qrcode.js`), ensure the script is accessible (via CDN or local file).
 
 ## Examples
 
