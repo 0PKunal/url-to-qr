@@ -99,10 +99,9 @@ Adjust function/class names to match the actual code exported by `qr-code.py`.
 ### Live Website
 
 <p style="text-align: center; font-size: 24px;">
-  <a href="https://url-to-qr-code.netlify.app/" target="_blank" rel="noopener noreferrer">
-    url-to-qr-code.netlify.app
-  </a>
+  <a href="https://url-to-qr-code.netlify.app/" target="_blank">url-to-qr-code.netlify.app</a>
 </p>
+
 
 
 
